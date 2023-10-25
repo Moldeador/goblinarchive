@@ -12,5 +12,9 @@
     "@sveltejs/vite-plugin-svelte": "^2.4.2",
     "svelte": "^4.0.5",
     "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@fontsource-variable/sen": "^5.0.3",
+    "@fontsource/unifrakturcook": "^5.0.17"
   }
 }
