@@ -32,6 +32,6 @@
   align-items:center;
   }
   .bottom{
-    color: #888;
+    color: var(--colour-grey);
   }
 </style>

@@ -4,6 +4,7 @@
   font-weight: 400;
 
   --colour-main: rgba(204, 68, 242, 0.87);
+  --colour-grey: #888;
   color: var(--colour-main);
   background-color: #ffffff;
 
@@ -28,7 +29,10 @@ h1 {
   font-family: UnifrakturCook, sans-serif;
   font-size: 7em;
 }
-
+h2 {
+  font-family: UnifrakturCook, sans-serif;
+  font-size: 5em;
+}
 .button-53 {
   background-color: var(--colour-main);
   border: 0 solid #ffffff;
