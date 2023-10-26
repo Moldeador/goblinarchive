@@ -4,7 +4,10 @@
   font-weight: 400;
 
   --colour-main: rgba(204, 68, 242, 0.87);
-  --colour-grey: #888;
+  --colour-grey: #88888875;
+  --colour-neon: #1ef4ff;
+  --colour-gold: gold;
+
   color: var(--colour-main);
   background-color: #ffffff;
 
@@ -13,6 +16,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+::selection{
+  background-color: var(--colour-neon);
 }
 
 body{
@@ -28,10 +34,17 @@ main{
 h1 {
   font-family: UnifrakturCook, sans-serif;
   font-size: 7em;
-}
-h2 {
+}h2 {
   font-family: UnifrakturCook, sans-serif;
   font-size: 5em;
+  margin-block-end: 0;
+}
+h3 {
+  font-family: UnifrakturCook, sans-serif;
+  font-size: 4em;
+  margin: 10px;
+  margin-block-start: -30px;
+  margin-block-end: 0;
 }
 .button-53 {
   background-color: var(--colour-main);

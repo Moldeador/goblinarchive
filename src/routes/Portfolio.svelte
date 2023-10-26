@@ -1,3 +1,9 @@
+<script>
+    import PortfolioItem from "../lib/PortfolioItem.svelte";
+    let imageDndPublications = "/images/dnd-publications.png";
+
+</script>
+
 <main>
 
 
@@ -8,7 +14,10 @@
   </div>
 
   <div class="center">
-
+    <PortfolioItem itemTitle={"D&D"} imageSrc={imageDndPublications}/>
+    <PortfolioItem itemTitle={"App"}/>
+    <PortfolioItem itemTitle={"CV"}/>
+    <PortfolioItem itemTitle={"Papers"}/>
 
   </div>
 
@@ -31,9 +40,10 @@
   .center{
   flex-grow: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items:center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
   }
   a{
     color: var(--colour-grey)
