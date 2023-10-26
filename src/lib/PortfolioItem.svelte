@@ -26,7 +26,7 @@
         margin: 20px;
         position: relative;
 
-        box-shadow: 10px 10px 0 -3px white, 10px 10px 0 5px gold;
+        box-shadow: 10px 10px 0 -3px var(--colour-white), 10px 10px 0 5px gold;
     }
     .portfolioItemContainer a {
         position: absolute;

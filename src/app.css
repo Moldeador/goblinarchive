@@ -4,12 +4,13 @@
   font-weight: 400;
 
   --colour-main: rgba(204, 68, 242, 0.87);
-  --colour-grey: #88888875;
+  --colour-grey: #ffffff;
   --colour-neon: #1ef4ff;
   --colour-gold: gold;
+  --colour-white: #dfdede;
 
   color: var(--colour-main);
-  background-color: #ffffff;
+  background-color: var(--colour-white);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -48,9 +49,9 @@ h3 {
 }
 .button-53 {
   background-color: var(--colour-main);
-  border: 0 solid #ffffff;
+  border: 0 solid var(--colour-white);
   box-sizing: border-box;
-  color: #ffffff;
+  color: var(--colour-white);
   display: flex;
   font-family: 'Sen Variable';
   font-size: 1rem;
