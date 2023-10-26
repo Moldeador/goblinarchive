@@ -26,6 +26,9 @@
         margin: 20px;
         position: relative;
 
+        box-sizing: border-box;
+        max-width: 80vw;
+
         box-shadow: 10px 10px 0 -3px var(--colour-white), 10px 10px 0 5px gold;
     }
     .portfolioItemContainer a {
