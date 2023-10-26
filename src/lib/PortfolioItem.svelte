@@ -16,8 +16,8 @@
         justify-content: center;
         align-items: stretch;
         padding: 2px;
-        width: 500px;
-        height: 250px;
+        width: 600px;
+        height: 300px;
         margin: 20px;
 
         box-shadow: 10px 10px 0 -3px white, 10px 10px 0 5px gold;
@@ -27,8 +27,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-size: contain;
-        background-position: center;
+        background-size: cover;
+        background-position: top;
+        margin:20px;
     }
     .titleContainer{
         writing-mode: vertical-lr;

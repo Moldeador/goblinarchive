@@ -1,6 +1,11 @@
 <script>
     import PortfolioItem from "../lib/PortfolioItem.svelte";
     let imageDndPublications = "/images/dnd-publications.png";
+    let imageApp = "/images/app-roll-for-initiative.png";
+    let imageCV = "";
+    let imagePapers = "/images/papers-2.png";
+    let imagePoems = "/images/poemas.png";
+    let imageMidjourney = "/images/deck-of-many-things.png";
 
 </script>
 
@@ -15,9 +20,11 @@
 
   <div class="center">
     <PortfolioItem itemTitle={"D&D"} imageSrc={imageDndPublications}/>
-    <PortfolioItem itemTitle={"App"}/>
-    <PortfolioItem itemTitle={"CV"}/>
-    <PortfolioItem itemTitle={"Papers"}/>
+    <PortfolioItem itemTitle={"App"} imageSrc={imageApp}/>
+    <PortfolioItem itemTitle={"Resumé"} imageSrc={imageCV}/>
+    <PortfolioItem itemTitle={"Papers"} imageSrc={imagePapers}/>
+    <PortfolioItem itemTitle={"Poems"} imageSrc={imagePoems}/>
+    <PortfolioItem itemTitle={"Midjourney"} imageSrc={imageMidjourney}/>
 
   </div>
 
