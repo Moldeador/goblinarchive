@@ -1,10 +1,14 @@
 <script>
     export let itemTitle;
     export let imageSrc;
+    export let link;
+    function handleItemClick(){
+        window.open(link, "_blank");
+    }
 </script>
 
 <div class="portfolioItemContainer">
-    <div class="imageContainer" style:background-image="url({imageSrc})"></div>
+    <button on:click={handleItemClick} class="imageContainer" style:background-image="url({imageSrc})"></button>
     <div class="titleContainer"><h3>{itemTitle}</h3></div>
 </div>
 
@@ -30,6 +34,13 @@
         background-size: cover;
         background-position: top;
         margin:20px;
+        border-width: 0;
+        transition: all .4s ease;
+    }
+    .imageContainer:hover{
+        margin:3px;
+        cursor: pointer;
+        
     }
     .titleContainer{
         writing-mode: vertical-lr;
@@ -37,4 +48,5 @@
         display: flex;
         justify-content: flex-start;
     }
+
 </style>
