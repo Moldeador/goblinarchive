@@ -8,7 +8,8 @@
 </script>
 
 <div class="portfolioItemContainer">
-    <button on:click={handleItemClick} class="imageContainer" style:background-image="url({imageSrc})"></button>
+    <a href={link}>{itemTitle}</a>
+    <div class="imageContainer" style:background-image="url({imageSrc})"></div>
     <div class="titleContainer"><h3>{itemTitle}</h3></div>
 </div>
 
@@ -23,8 +24,15 @@
         width: 600px;
         height: 300px;
         margin: 20px;
+        position: relative;
 
         box-shadow: 10px 10px 0 -3px white, 10px 10px 0 5px gold;
+    }
+    .portfolioItemContainer a {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        font-size: 0;
     }
     .imageContainer{
         flex-grow: 1;
@@ -37,10 +45,8 @@
         border-width: 0;
         transition: all .4s ease;
     }
-    .imageContainer:hover{
+    .portfolioItemContainer:hover .imageContainer {
         margin:3px;
-        cursor: pointer;
-        
     }
     .titleContainer{
         writing-mode: vertical-lr;

@@ -11,7 +11,7 @@
     let linkDnd = "https://www.dmsguild.com/browse.php?author=Santiago%20Cabrera";
     let linkApp = "https://rollforinitiative.goblinarchive.com";
     let linkCV = "/pdfs/cv_goblinarchive.pdf";
-    let linkPapers = "https://link.springer.com/search?dc.creator=Santiago%20Cabrera";
+    let linkPapers = "https://arxiv.org/search/hep-th?searchtype=author&query=Cabrera,+S";
     let linkPoems = "https://buscadbuscadlos.blogspot.com/";
     let linkMidjourney = "https://santibanti.itch.io/the-deck-of-many-things";
 </script>
