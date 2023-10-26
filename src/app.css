@@ -4,10 +4,10 @@
   font-weight: 400;
 
   --colour-main: rgba(204, 68, 242, 0.87);
-  --colour-grey: #ffffff;
+  --colour-grey: #888;
   --colour-neon: #1ef4ff;
   --colour-gold: gold;
-  --colour-white: #dfdede;
+  --colour-white: white;
 
   color: var(--colour-main);
   background-color: var(--colour-white);

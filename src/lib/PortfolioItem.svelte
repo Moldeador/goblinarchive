@@ -15,7 +15,7 @@
 
 <style>
     .portfolioItemContainer{
-        border: 3px solid black;
+        border: 5px solid rgba(0, 0, 0, 0.7);
         flex-grow: 0;
         display: flex;
         justify-content: center;
