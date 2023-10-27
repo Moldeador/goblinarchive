@@ -35,9 +35,11 @@ main{
 h1 {
   font-family: UnifrakturCook, sans-serif;
   font-size: 7em;
+  text-align: center;
 }h2 {
   font-family: UnifrakturCook, sans-serif;
   font-size: 5em;
+  text-align: center;
 }
 h3 {
   font-family: UnifrakturCook, sans-serif;

@@ -26,12 +26,12 @@
   </div>
 
   <div class="center">
-    <PortfolioItem itemTitle={"D&D"} imageSrc={imageDndPublications} link={linkDnd}/>
     <PortfolioItem itemTitle={"App"} imageSrc={imageApp} link={linkApp}/>
+    <PortfolioItem itemTitle={"D&D"} imageSrc={imageDndPublications} link={linkDnd}/>
     <PortfolioItem itemTitle={"Resumé"} imageSrc={imageCV} link={linkCV}/>
     <PortfolioItem itemTitle={"Papers"} imageSrc={imagePapers} link={linkPapers}/>
     <PortfolioItem itemTitle={"Poems"} imageSrc={imagePoems} link={linkPoems}/>
-    <PortfolioItem itemTitle={"Midjourney"} imageSrc={imageMidjourney} link={linkMidjourney}/>
+    <PortfolioItem itemTitle={"Itch"} imageSrc={imageMidjourney} link={linkMidjourney}/>
 
   </div>
 
