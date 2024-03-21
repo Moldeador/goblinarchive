@@ -17,8 +17,11 @@
 </div>
 
   <div class="bottom">
-    <p>Welcome to the personal site of Santiago Cabrera, click on the button to see my portfolio!</p>
+    <span></span>
+    <span>Welcome to the personal site of Santiago Cabrera, click on the button to see my portfolio!</span>
+    <span>Locked!</span>
   </div>
+
 
 </main>
 
@@ -32,6 +35,10 @@
   align-items:center;
   }
   .bottom{
+    width: 100%;
     color: var(--colour-grey);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 </style>
