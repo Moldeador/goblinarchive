@@ -1,17 +1,8 @@
-<script>
-    function handleGoToPainting(){
-        window.location.href = '#/locked/painting';
-    }
-</script>
 
 <main>
   <div class="gameContainer">
-    <div class="door tooltipholder">
-      <span class="tooltip">Door</span>
-    </div>
-
       
-    <div class="painting tooltipholder" on:click={handleGoToPainting}>
+    <div class="painting tooltipholder" title="Painting">
       <span class="tooltip">Painting</span>
     </div>
   </div>
@@ -32,24 +23,15 @@
     background-color: white;
     position: relative;
     }
-  .door{
-    background-color: black;
-    width: 200px;
-    height: 400px;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-    position: absolute;
-    bottom: 0px;
-    left: 200px;
-  }
+
   .painting{
     background-color: black;
-    width: 300px;
-    height: 200px;
+    width: 600px;
+    height: 400px;
     border-radius: 5%;
     position: absolute;
-    bottom: 300px;
-    left: 700px;
+    bottom: 100px;
+    left: 300px;
   }
 
   .tooltip {
