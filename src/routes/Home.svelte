@@ -21,7 +21,7 @@
 </div>
 
   <div class="bottom">
-    <p>Welcome to the personal site of Santiago Cabrera, click on the button to see my portfolio!</p>
+    <p>Welcome to the personal site of Santiago Cabrera, the goblins are busy adding more content!</p>
   </div>
 
 </main>
