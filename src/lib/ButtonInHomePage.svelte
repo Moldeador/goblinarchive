@@ -1,4 +1,5 @@
 <script>
+  export let buttonName;
     function handleGoToPortfolio(){
         window.location.href = '#/portfolio';
     }
@@ -6,5 +7,5 @@
 
 
 <button class="button-53" on:click={handleGoToPortfolio}>
-  Santi's Portfolio
+  {buttonName}
 </button>

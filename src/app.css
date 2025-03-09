@@ -70,6 +70,7 @@ h3 {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin: 1EM;
 }
 
 .button-53:focus {

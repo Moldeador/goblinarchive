@@ -1,5 +1,5 @@
 <script>
-  import ButtonGoToPortfolio from '../lib/ButtonGoToPortfolio.svelte'
+    import ButtonInHomePage from '../lib/ButtonInHomePage.svelte';
 
 </script>
 
@@ -10,7 +10,11 @@
     <h1>Goblin 𓃛 Archive</h1>
 
     <div>
-      <ButtonGoToPortfolio />
+      <ButtonInHomePage buttonName={"Santi's Portfolio"} />
+    </div>
+    <div>
+      <ButtonInHomePage buttonName={"Arkham City"} />
+
     </div>
 
   
