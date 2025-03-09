@@ -10,10 +10,10 @@
     <h1>Goblin 𓃛 Archive</h1>
 
     <div>
-      <ButtonInHomePage buttonName={"Santi's Portfolio"} />
+      <ButtonInHomePage buttonName={"Santi's Portfolio"} locationRef={"#/portfolio"}/>
     </div>
     <div>
-      <ButtonInHomePage buttonName={"Arkham City"} />
+      <ButtonInHomePage buttonName={"Arkham City"}  locationRef={"#/arkham"}/>
 
     </div>
 

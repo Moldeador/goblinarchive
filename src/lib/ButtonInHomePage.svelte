@@ -1,11 +1,12 @@
 <script>
   export let buttonName;
-    function handleGoToPortfolio(){
-        window.location.href = '#/portfolio';
+  export let locationRef;
+    function handleGoToRef(){
+        window.location.href = locationRef;
     }
 </script>
 
 
-<button class="button-53" on:click={handleGoToPortfolio}>
+<button class="button-53" on:click={handleGoToRef}>
   {buttonName}
 </button>
