@@ -8,6 +8,8 @@
   --colour-neon: #1ef4ff;
   --colour-gold: gold;
   --colour-white: white;
+  --colour-arkham-font: #ffed8d;
+  --colour-arkham-background: #364b2c;
 
   color: var(--colour-main);
   background-color: var(--colour-white);

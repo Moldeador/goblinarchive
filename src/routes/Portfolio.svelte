@@ -18,11 +18,8 @@
 
 <main>
 
-
   <div class="top">
-
     <h2>Santi's Portfolio</h2>
-
   </div>
 
   <div class="center">
@@ -32,18 +29,11 @@
     <PortfolioItem itemTitle={"Papers"} imageSrc={imagePapers} link={linkPapers}/>
     <PortfolioItem itemTitle={"Poems"} imageSrc={imagePoems} link={linkPoems}/>
     <PortfolioItem itemTitle={"Itch"} imageSrc={imageMidjourney} link={linkMidjourney}/>
-
   </div>
 
   <div class="bottom">
-
-
-<a href="/">Go back to home page</a>
+    <a href="/">Go back to home page</a>
   </div>
-
-  
-
-
 
 </main>
 
