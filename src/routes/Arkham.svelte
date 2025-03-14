@@ -12,7 +12,7 @@
     </div>
 
     <div class="center">
-        <BlogItem itemTitle={"Day 1"}/>
+        <BlogItem itemTitle={"Day 1"}>   </BlogItem>
     </div>
     
     <div class="bottom">

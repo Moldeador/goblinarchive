@@ -5,8 +5,9 @@
 <div class="blogItemContainer">
     <div class="titleContainer"><h3>{itemTitle}</h3></div>
     <div >
-        <p>Day 1:</p> 
+        <slot>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales velit non ultricies fringilla. Etiam et purus vel erat hendrerit sollicitudin vel id enim. Duis finibus bibendum lorem, a finibus purus scelerisque hendrerit. Phasellus a nunc finibus, rutrum lorem at, tincidunt nisl. Morbi nec maximus purus. Integer sed suscipit mauris. Fusce sagittis massa id ligula porta cursus. Morbi congue imperdiet ante. Mauris quis urna libero. Donec nisi metus, ullamcorper elementum lobortis vitae, efficitur id leo. Mauris quis volutpat est, id dictum erat. Morbi ornare, mauris at cursus finibus, sem risus efficitur leo, id gravida arcu orci vitae velit. Integer sit amet mauris vitae eros pulvinar porttitor ac a lacus. Sed ac sem in ex pharetra feugiat..</p>
+        </slot>
     </div>
 </div>
 
