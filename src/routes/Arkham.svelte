@@ -1,17 +1,18 @@
 <script>
     import BlogItem from "../lib/BlogItem.svelte";
-    let imageDndPublications = "/images/dnd-publications.png";
-    let linkDnd = "https://www.dmsguild.com/browse.php?author=Santiago%20Cabrera";
-
 </script>
 <main>
 
     <div class="top">
-        <h2>Arkham City</h2>
+        <h2>Amidst the Ancient Trees</h2>
+        <div class="subtitle">
+          <p>Investigator's Log</p>
+
+        </div>
     </div>
 
     <div class="center">
-        <BlogItem itemTitle={"Amidst the Ancient Trees"} link={linkDnd}/>
+        <BlogItem itemTitle={"Day 1"}/>
     </div>
     
     <div class="bottom">
@@ -28,6 +29,15 @@
 
   a{
     color: var(--colour-grey)
+  }
+  
+  .subtitle{
+    display: flex;
+    justify-content: center;
+    transform: rotate(355deg);
+    font-size: 2em;
+    font-family: 'Rock Salt', cursive;
+    margin-top: -3em;
   }
 
 </style>

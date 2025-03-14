@@ -1,9 +1,5 @@
 <script>
     export let itemTitle;
-    export let link;
-    function handleItemClick(){
-        window.open(link, "_blank");
-    }
 </script>
 
 <div class="blogItemContainer">
@@ -33,8 +29,7 @@
     }
 
     .titleContainer{
-        transform:rotate(180deg);
-        writing-mode: vertical-rl;
+        writing-mode: vertical-lr;
         display: flex;
         justify-content: flex-start;
     }
