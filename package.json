@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@fontsource-variable/sen": "^5.0.3",
+    "@fontsource/rock-salt": "^5.2.5",
     "@fontsource/unifrakturcook": "^5.0.17",
     "svelte-spa-router": "^3.3.0"
   }

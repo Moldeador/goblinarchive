@@ -8,6 +8,11 @@
   --colour-neon: #1ef4ff;
   --colour-gold: gold;
   --colour-white: white;
+  --colour-arkham-font: #ffed8d;
+  --colour-arkham-background: #364b2c;
+  --colour-arkham-shade: #549001;
+  --colour-arkham-selected-font: #526f4d80;
+  --colour-arkham-selected-background: #113308;
 
   color: var(--colour-main);
   background-color: var(--colour-white);
@@ -70,6 +75,7 @@ h3 {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin: 1EM;
 }
 
 .button-53:focus {
