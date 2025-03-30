@@ -20,19 +20,24 @@
         align-items: stretch;
         padding: 2px;
         width: 1000px;
-        margin: 20px;
+        margin: 60px;
         position: relative;
 
         box-sizing: border-box;
         max-width: 80vw;
 
-        box-shadow: 10px 10px 0 -3px var(--colour-arkham-background), 10px 10px 0 5px #549001;
+        box-shadow: 10px 10px 0 -3px var(--colour-arkham-background), 10px 10px 0 5px var(--colour-arkham-shade);
     }
 
     .titleContainer{
         writing-mode: vertical-lr;
         display: flex;
         justify-content: flex-start;
+    }
+
+    ::selection{
+        background-color: var(--colour-arkham-selected-background);
+        color: var(--colour-arkham-selected-font)
     }
 
 </style>
