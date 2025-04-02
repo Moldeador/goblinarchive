@@ -13,7 +13,12 @@
     <div class="center">
 
         <BlogItem itemTitle={"Preamble"}>
-          <p>Lucas Strong tried to pay ransom for kidnapped daughter Jane (16), but talks collapsed and two of the gang were killed. Vernon knows that the shooting started when criminals suddently shot into the forest.</p>
+          <p>This is the personal diary of father Gordon Travers, local priest of Bennington, Vermont.
+            Some parts that were blank have been filled later by Dr. Tobias Williams and Arthur Greenshade,
+            who took part in the same investigation that took Gordon to the local forest, and eventually to the 
+            fated lake.</p>
+          <p>It is the summer of 1920.</p>
+          <p>One day ago, Lucas Strong tried to pay ransom for kidnapped daughter Jane (16), but talks collapsed and two of the gang were killed. Vernon knows that the shooting started when criminals suddently shot into the forest.</p>
           <p>Surviving gang members/kidnappers:<p>
           <ul>
             <li>Sidney Harris (22)</li>
@@ -141,6 +146,11 @@
           <p>Over the next weeks and months Lucas Strong's supposed business activities with the mine, dam, lake and reservoir collapse.</p>
           <p>Tobias doesn't report back any of the shocking events to Theo, who sent him to find out information.</p>
         </BlogItem>
+
+        <div class="mt-20 mb-20 text-center font-rock-salt text-xl">
+          The end... ?
+        </div>
+
     </div>
     
     <div class="bottom">
@@ -155,7 +165,7 @@
     background:var(--colour-arkham-background);
   }
 
-  ::selection{
+  main :global(::selection) {
     background-color: var(--colour-arkham-selected-background);
     color: var(--colour-arkham-selected-font)
   }
