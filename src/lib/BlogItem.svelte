@@ -11,7 +11,7 @@
     </div>
 </div>
 
-<style>
+<style type="postcss">
     .blogItemContainer{
         border: 5px solid var(--colour-arkham-font);
         flex-grow: 0;
@@ -29,15 +29,9 @@
         box-shadow: 10px 10px 0 -3px var(--colour-arkham-background), 10px 10px 0 5px var(--colour-arkham-shade);
     }
 
-    .titleContainer{
+    .titleContainer {
         writing-mode: vertical-lr;
-        display: flex;
-        justify-content: flex-start;
+        @apply flex;
+        @apply justify-start;
     }
-
-    ::selection{
-        background-color: var(--colour-arkham-selected-background);
-        color: var(--colour-arkham-selected-font)
-    }
-
 </style>
