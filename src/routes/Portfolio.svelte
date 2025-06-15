@@ -1,6 +1,7 @@
 <script>
     import PortfolioItem from "../lib/PortfolioItem.svelte";
 
+    let imageFeatherandfox = "/images/featherandfox.png";
     let imageDndPublications = "/images/dnd-publications.png";
     let imageApp = "/images/app-roll-for-initiative.png";
     let imageCV = "/images/CV-image.png";
@@ -8,10 +9,11 @@
     let imagePoems = "/images/poemas.png";
     let imageMidjourney = "/images/deck-of-many-things.png";
 
+    let linkFeatherandfox = "https://featherandfox.com";
     let linkDnd = "https://www.dmsguild.com/browse.php?author=Santiago%20Cabrera";
     let linkApp = "https://rollforinitiative.goblinarchive.com";
     let linkCV = "/pdfs/cv_goblinarchive.pdf";
-    let linkPapers = "https://arxiv.org/search/hep-th?searchtype=author&query=Cabrera,+S";
+    let linkPapers = "https://inspirehep.net/authors/1607971?ui-citation-summary=true";
     let linkPoems = "https://buscadbuscadlos.blogspot.com/";
     let linkMidjourney = "https://santibanti.itch.io/the-deck-of-many-things";
 </script>
@@ -23,12 +25,13 @@
   </div>
 
   <div class="center">
+    <PortfolioItem itemTitle={"Web"} imageSrc={imageFeatherandfox} link={linkFeatherandfox}/>
     <PortfolioItem itemTitle={"App"} imageSrc={imageApp} link={linkApp}/>
-    <PortfolioItem itemTitle={"D&D"} imageSrc={imageDndPublications} link={linkDnd}/>
-    <PortfolioItem itemTitle={"Resumé"} imageSrc={imageCV} link={linkCV}/>
     <PortfolioItem itemTitle={"Papers"} imageSrc={imagePapers} link={linkPapers}/>
+    <PortfolioItem itemTitle={"D&D"} imageSrc={imageDndPublications} link={linkDnd}/>
     <PortfolioItem itemTitle={"Poems"} imageSrc={imagePoems} link={linkPoems}/>
     <PortfolioItem itemTitle={"Itch"} imageSrc={imageMidjourney} link={linkMidjourney}/>
+    <PortfolioItem itemTitle={"Resumé"} imageSrc={imageCV} link={linkCV}/>
   </div>
 
   <div class="bottom">
