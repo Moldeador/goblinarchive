@@ -4,7 +4,6 @@
   let imageFeatherandfox = "images/featherandfox.png";
   let imageReact = "images/card-searcher.png";
   let imageDndPublications = "images/dnd-publications.png";
-  let imageApp = "images/app-roll-for-initiative.png";
   let imageCV = "images/CV-image.png";
   let imagePapers = "images/papers-3.png";
   let imagePoems = "images/poemas.png";
@@ -13,7 +12,6 @@
   let linkFeatherandfox = "https://featherandfox.com";
   let linkReact = "https://moldeador.github.io/card-searcher-react/";
   let linkDnd = "https://www.dmsguild.com/browse.php?author=Santiago%20Cabrera";
-  let linkApp = "https://rollforinitiative.goblinarchive.com";
   let linkCV = "/pdfs/cv_goblinarchive.pdf";
   let linkPapers =
     "https://inspirehep.net/authors/1607971?ui-citation-summary=true";
@@ -27,13 +25,12 @@
   </div>
 
   <div class="center">
-    <PortfolioItem itemTitle={"React"} imageSrc={imageReact} link={linkReact} />
     <PortfolioItem
       itemTitle={"Web"}
       imageSrc={imageFeatherandfox}
       link={linkFeatherandfox}
     />
-    <PortfolioItem itemTitle={"App"} imageSrc={imageApp} link={linkApp} />
+    <PortfolioItem itemTitle={"React"} imageSrc={imageReact} link={linkReact} />
     <PortfolioItem
       itemTitle={"Papers"}
       imageSrc={imagePapers}
