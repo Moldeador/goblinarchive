@@ -1,14 +1,14 @@
 <script>
   import PortfolioItem from "../lib/PortfolioItem.svelte";
 
-  let imageFeatherandfox = "/images/featherandfox.png";
-  let imageReact = "/images/card-searcher.png";
-  let imageDndPublications = "/images/dnd-publications.png";
-  let imageApp = "/images/app-roll-for-initiative.png";
-  let imageCV = "/images/CV-image.png";
-  let imagePapers = "/images/papers-3.png";
-  let imagePoems = "/images/poemas.png";
-  let imageMidjourney = "/images/deck-of-many-things.png";
+  let imageFeatherandfox = "images/featherandfox.png";
+  let imageReact = "images/card-searcher.png";
+  let imageDndPublications = "images/dnd-publications.png";
+  let imageApp = "images/app-roll-for-initiative.png";
+  let imageCV = "images/CV-image.png";
+  let imagePapers = "images/papers-3.png";
+  let imagePoems = "images/poemas.png";
+  let imageMidjourney = "images/deck-of-many-things.png";
 
   let linkFeatherandfox = "https://featherandfox.com";
   let linkReact = "https://moldeador.github.io/card-searcher-react/";
